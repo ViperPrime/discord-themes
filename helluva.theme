@@ -10,13 +10,15 @@
 */
 
 @import url('https://clearvision.github.io/ClearVision-v6/main.css');
+@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
+@import url('https://nyri4.github.io/Discolored/main.css');
 
 :root {
   --main-color: #AE0000;
   --hover-color: #000000;
-  --success-color: #000000;
-  --danger-color: #000000;
-  --url-color: #FFFFFF;
+  --success-color: #FF0000;
+  --danger-color: #FF0000;
+  --url-color: #00BBFF;
   --background-image: url('https://i.imgur.com/GJ77AHI.jpg');
   --background-shading: 100%;
   --background-position: center;
@@ -41,17 +43,17 @@
   --user-popout-grayscale: 0%;
   --user-popout-invert: 0%;
   --user-popout-blur: 3px;
-  --user-modal-image: url('https://clearvision.github.io/images/sapphire.jpg');
+  --user-modal-image: url('https://i.imgur.com/0Rd4Kw0.jpg');
   --user-modal-position: center;
-  --user-modal-size: cover;
+  --user-modal-size: contain;
   --user-modal-repeat: no-repeat;
   --user-modal-attachment: fixed;
-  --user-modal-brightness: 100%;
+  --user-modal-brightness: 101%;
   --user-modal-contrast: 100%;
   --user-modal-saturation: 100%;
   --user-modal-grayscale: 0%;
   --user-modal-invert: 0%;
-  --user-modal-blur: 3px;
+  --user-modal-blur: 0px;
   --home-icon: url('https://clearvision.github.io/icons/discord.svg');
   --home-position: top center;
   --home-size: 40px;
@@ -83,7 +85,19 @@
   --bd-blue: var(--main-color);
   --bd-blue-hover: var(--hover-color);
   --bd-blue-active: var(--hover-color);
+  --rs-small-spacing: 1px;
+  --rs-medium-spacing: 2px;
+  --rs-large-spacing: 2px;
+  --rs-small-width: 2px;
+  --rs-medium-width: 2px;
+  --rs-large-width: 2px;
+  --rs-avatar-shape: 50%;
+  --rs-online-color: #43b581;
+  --rs-idle-color: #faa61a;
+  --rs-dnd-color: #f04747;
+  --rs-offline-color: #636b75;
+  --rs-streaming-color: #643da7;
+  --rs-phone-visible: block;
 }
 
 /* Any custom CSS below here */
-
