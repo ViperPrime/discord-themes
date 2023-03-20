@@ -16,7 +16,7 @@
 :root {
   --main-color: #AE0000;
   --hover-color: #000000;
-  --success-color: #FF0000;
+  --success-color: #A90000;
   --danger-color: #FF0000;
   --url-color: #00BBFF;
   --background-image: url('https://i.imgur.com/GJ77AHI.jpg');
@@ -60,11 +60,11 @@
   --channel-unread: #0060FF;
   --channel-color: rgb(255,0,0,0.7);
   --muted-color: rgb(95,14,14,1);
-  --online-color: #43b581;
-  --idle-color: #faa61a;
-  --dnd-color: #982929;
-  --streaming-color: #593695;
-  --offline-color: #808080;
+  --online-color: #31B277;
+  --idle-color: #FF9F00;
+  --dnd-color: #E20505;
+  --streaming-color: #22005D;
+  --offline-color: #A0A0A0;
   --main-font: gg sans;
   --code-font: Consolas;
   --channels-width: 220px;
